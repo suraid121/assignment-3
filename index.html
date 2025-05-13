@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="https://kit.fontawesome.com/204064b763.js" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon">
+            <link rel="preload" href="images/banner-image.png" as="image">
+            <link rel="preload" href="images/Statue of Liberty.png" as="image">
+            <link rel="preload" href="images/Explore Cities.png" as="image">
+            <link rel="preload" href="images/Explore nature.png" as="image">
+            <title>Travel and Tour Booking</title>
+        </head>
+<body>
+
+<!-- This is hero-section  -->
+<section class="hero-section">
+
+<!-- This is navigation bar section -->
+    <section class="nav-bar-section">
+        <div class="nav-logo">
+            <img src="images/logo.png" loading="lazy" alt="nav-logo">
+        </div>
+        <div id="nav-links">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" class="active-link">About</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li id="dropdown-part">
+                                <div class="dropdown">
+                                    <span class="dropdown-btn" id="dropdownToggle">
+                                        Services <i class="fa-solid fa-caret-right" id="dropdownIcon"></i>
+                                    </span>
+                                <div class="dropdown-content" id="dropdownContent">
+                                        <ul>
+                                            <li><a href="#">Honeymoon Packages</a></li>
+                                            <li><a href="#">Tours Packages</a></li>
+                                            <li><a href="#">Musical Events</a></li>
+                                            <li><a href="#">Build Package</a></li>
+                                        </ul>
+                                </div>
+                                </div>                                
+                    </li>
+                    <li><a href="#">Upcoming Packages</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+            <button class="get-in-touch">Get in Touch</button>
+    </section>
+
+<!-- This is scroll-image section  -->
+
+<div class="scroll-image">
+    <img src="images/Scroll.png" alt="scroll-image" loading="lazy">
+</div>
+
+<!-- This is hero content section  -->
+    <section class="hero-content">
+            <img src="images/Vector 1.png" alt="vector-sign" loading="lazy">
+            <h1>No matter where <br> you’re going to, we’ll <br> take you there</h1>
+            <form id="form">
+                <div class="input-place">
+                    <input type="text" placeholder="Where to ?">
+                </div>
+                <div class="travel-type">
+                    <select>
+                        <option value="Travel Type">Travel Type</option>
+                        <option value="Adventure travel">Adventure travel</option>
+                        <option value="Business tourism">Business tourism</option>
+                        <option value="Cultural travel">Cultural travel</option>
+                        <option value="Solo travel">Solo travel</option>
+                        <option value="Rural tourism">Rural tourism</option>
+                    </select>
+                </div>
+                <select class="duration">
+                    <option value="duration">Duration</option>
+                    <option value="1 week">1 week</option>
+                    <option value="2 weeks">2 weeks</option>
+                    <option value="3 weeks">3 weeks</option>
+                    <option value="1 month"> 1 month</option>
+                    <option value="2 months"> 2 months</option>
+                    <option value="3 months"> 3 months</option>
+                    <option value="4 months"> 4 months</option>
+                </select>
+                <button class="submit">Submit</button>
+            </form>
+            <div class="group-image-text">
+                <img src="images/group-image.png" alt="group-image" loading="lazy">
+                <p>2,500 people booked Tommorowland Event in last 24 hours</p>
+            </div>
+    </section>
+</section>
+
+<!-- This is logo section  -->
+<section id="logo-section">
+    <img src="images/fly-emirates.png" alt="fa-caret-right" loading="lazy">
+    <img src="images/trivago.png" alt="trivago" loading="lazy">
+    <img src="images/airbnb.png" alt="airbnb" loading="lazy">
+    <img src="images/turkish-airlines.png" alt="turkish-airlines" loading="lazy">
+    <img src="images/swiss.png" alt="swiss" loading="lazy">
+</section>
+
+<!-- this is category section  -->
+<section class="category">
+    <div class="category-subtitle">
+        <p>CATEGORY</p>
+    </div>
+    <div class="category-header">
+        <h3>We Offer Best Services</h3>
+    </div>
+    <div class="category-card-section">
+        <div class="category-card">
+            <img src="images/tour-guide.png" alt="tour-guide" loading="lazy">
+            <p>Guided Tours</p>
+            <span>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</span>
+        </div>
+        <div class="category-card flight-card">
+            <img src="images/flights-options.png" alt="flights-options" loading="lazy">
+            <p>Best Flights Options</p>
+            <span>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</span>
+        </div>
+        <div class="category-card">
+            <img src="images/religious-tours.png" alt="religious-tours" loading="lazy">
+            <p>Religious Tours</p>
+            <span>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</span>
+        </div>
+        <div class="category-card">
+            <img src="images/medical-team 1.png" alt="medical-team" loading="lazy">
+            <p>Medical insurance</p>
+            <span>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</span>
+
+        </div>
+    </div>
+</section>
+
+<!-- This is honeymoon section -->
+
+<section class="honeymoon-section">
+    <div class="honeymoon-image">
+        <img src="images/Illustration.png" alt="Illustration" loading="lazy">
+    </div>
+    <div class="honeymoon-article">
+        <p class="honeymoon-article-subtitle">Honeymoon Specials</p>
+        <h4 class="honeymoon-article-heading">Our Romantic Tropical <br>Destinations</h4>
+        <span class="honeymoon-article-description">Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut optio quibusdam!</span>
+        <button class="view-packages">View Package</button>
+    </div>
+</section>
+<!-- this is resort booking feature section  -->
+<section class="resort-booking-feature-section">
+    <div class="booking-feature-details">
+        <p class="booking-feature-subtitle">Fast & Easy</p>
+        <h4 class="booking-feature-heading">
+            Get Your Favourite <br>Resort Bookings
+        </h4>
+            <div id="booking-feature-explanation">
+                <div class="booking-features">
+                <img src="images/destination.png" alt="let go" loading="lazy">
+                <div class="booking-feature-description">
+                    <p >Choose Destination</p>
+                    <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. 
+                    </span>
+                </div>        
+            </div>
+            <div class="booking-features">
+                <img src="images/availability.png" alt="let go" loading="lazy">
+                <div class="booking-feature-description">
+                    <p >Check Availability</p>
+                    <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. 
+                    </span>
+                </div>        
+            </div>
+            <div class="booking-features">
+                <img src="images/let go.png" alt="let go" loading="lazy">
+                <div class="booking-feature-description">
+                    <p >Let’s Go</p>
+                    <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. 
+                    </span>
+                </div>        
+            </div>
+            </div>
+    </div>
+    
+    <div class="booking-feature-image">
+        <img src="images/Illustration 2.png" alt="Illustration" loading="lazy">
+    </div>
+</section>
+
+<!-- This is holiday section  -->
+
+<section class="holiday-section">
+    <div class="holiday-heading">
+        <h1>Let’s make your <br>
+        next holiday amazing</h1>
+        <img src="images/Line-1.png" alt="Line-1" loading="lazy">
+    </div>
+</section>
+
+<!-- This is promotion section  -->
+<section id="promotion-section">
+        <div class="grid-1">
+        <p>Promotion</p>
+        <h3>We Provide You Best <br> Europe Sightseeing Tours</h3>
+        <span>
+            Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut optio quibusdam!
+        </span>
+        <button class="view-packages">View Package</button>
+
+    </div>
+    <div class="grid-2">
+        <div id="europe-tour-image">
+        <img src="images/Destination 1.png" alt="Destination 1" loading="lazy">
+        </div>
+        <div id="europe-tour-image">
+        <img src="images/Destination 2.png" alt="Destination 2" loading="lazy">
+        </div>
+        <div id="europe-tour-image">
+        <img src="images/Destination 3.png" alt="Destination 3" loading="lazy">
+        </div>
+        <div id="europe-tour-image">
+        <img src="images/Destination 4.png" alt="Destination-4" loading="lazy" >
+        </div>
+    </div>
+    <div class="grid-3" >
+        <img src="images/Illustration 3.png" alt="Illustration-3" loading="lazy">
+    </div>
+
+</section>
+
+<!-- This is exploration section  -->
+
+<section class="exploration-section">
+    <div class="explore-nature">
+    <button id="view-packages">View Packages</button>    
+    </div>
+    <div class="explore-city">
+    <button id="view-packages">View Packages</button>
+    </div>
+</section>
+
+<!-- This is trending section  -->
+<section class="trending-section">
+    <p class="trending-section-subtitle">TRENDY</p>
+    <h2 class="trending-section-header">
+        Our Trending Tour Packages
+    </h2>
+    <div class="trending-places">
+        <div class="trending-places-card">
+            <div class="trending-places-image">
+                <img src="images/switzerland-image .png" alt="switzerland-image" id="place" loading="lazy">
+                <img src="images/switerland-flag.png" alt="switerland-flag" id="flag" loading="lazy">
+            </div>
+            <div class="trending-plan">
+                <div class="trending-date">
+                    <i class="fa-regular fa-calendar"></i>
+                    <span>8 Days</span>
+                </div>
+                <div class="people-ongoing">
+                    <i class="fa-solid fa-person"></i>
+                    <span>   25 People Going   </span>
+                </div>
+            </div>
+            <div class="trending-place-name">
+                <h3>Switzerland</h3>
+                <img src="images/5 star .png" alt="5 star" loading="lazy">
+            </div>
+            <div class="trending-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Europe</span>
+            </div>
+            <div class="trending-places-pricing">
+                <h2> 1,000 $</h2>
+                <del>1,200 $</del>
+            </div>
+            <p class="trending-places-description">
+                Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.</p>       
+                <button class="explore-now">Explore Now</button>
+        </div>
+            <div class="trending-places-card">
+            <div class="trending-places-image">
+                <img src="images/amazon-img.png" alt="amazon-img" id="place" loading="lazy">
+                <img src="images/amazon-flag.png" alt="amazon-flagg" id="flag" loading="lazy">
+            </div>
+            <div class="trending-plan">
+                <div class="trending-date">
+                    <i class="fa-regular fa-calendar"></i>
+                    <span>8 Days</span>
+                </div>
+                <div class="people-ongoing">
+                    <i class="fa-solid fa-person"></i>
+                    <span>   30 People Going   </span>
+                </div>
+            </div>
+            <div class="trending-place-name">
+                <h3>Amazon</h3>
+                <img src="images/5 star .png" alt="5 star" loading="lazy">
+            </div>
+            <div class="trending-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Brazil</span>
+            </div>
+            <div class="trending-places-pricing">
+                <h2> 1,223 $</h2>
+                <del>1,200 $</del>
+            </div>
+            <p class="trending-places-description">
+                Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.</p>       
+                <button class="explore-now">Explore Now</button>
+        </div>
+            <div class="trending-places-card">
+            <div class="trending-places-image">
+                <img src="images/giza-img.png" alt="giza-img" id="place" loading="lazy">
+                <img src="images/giza-flag.png" alt="giza-flag" id="flag" loading="lazy" >
+            </div>
+            <div class="trending-plan">
+                <div class="trending-date">
+                    <i class="fa-regular fa-calendar"></i>
+                    <span>8 Days</span>
+                </div>
+                <div class="people-ongoing">
+                    <i class="fa-solid fa-person"></i>
+                    <span>   155 People Going   </span>
+                </div>
+            </div>
+            <div class="trending-place-name">
+                <h3>Giza</h3>
+                <img src="images/5 star .png" alt="5 star" loading="lazy">
+            </div>
+            <div class="trending-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Egypt</span>
+            </div>
+            <div class="trending-places-pricing">
+                <h2> 1,000 $</h2>
+                <del>1,200 $</del>
+            </div>
+            <p class="trending-places-description">
+                Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.</p>       
+                <button class="explore-now">Explore Now</button>
+        </div>
+    </div>
+</section>
+
+<!-- This is client feedback section  -->
+<section class="client-feedback-section">
+    <img src="images/travel-concept-element.png" alt="travel-concept-element" loading="lazy">
+    <img src="images/snail.png" alt="snail">
+    <img src="images/cilent-image with place .png" alt="client-image-with-place" loading="lazy">
+    <div class="client-feedback-article">
+        <p>PROMOTION</p>
+        <h3>See What Our Clients Say <br> About Us</h3>
+        <div class="client-description">
+            <div class="client-image">
+        <img src="images/clients-image.png" alt="clients-image" loading="lazy">
+            </div>
+            <div class="client-notion-section">
+                <i class="fa-solid fa-arrow-left-long"></i>
+                <div class="client-feedback">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <div id="client-speech">
+                    <span>Vel officiis dolor ea illo aut eligendi ullam non laudantium magnam et recusandae molestiae sit iure unde aut voluptate quaerat. Id sunt provident quo possimus impedit vel doloremque obcaecati qui ullam consectetur et ipsum omnis. <i class="fa-solid fa-quote-right"></i></span>
+                    <p>Christine Beckam - Designer</p>
+                    </div>
+
+                </div>
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+        </div>
+        <div class="client-indicator"></div>
+    </div>
+</section>
+
+<!-- This is footer section  -->
+<footer>
+    <div class="footer-background-image">
+        <img src="images/Footer img.png" alt="footer-image" loading="lazy">
+    </div>
+    <div class="footer-content-section">
+        <div class="footer-content">
+                <div class="footer-logo-icon-section">
+                    <img src="images/footer-logo.png" alt="footer-logo" loading="lazy">
+                    <span>Travel helps companies <br> manage payments easily.</span>
+                    <div class="footer-icon">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-meta"></i>
+                    </div>
+                </div>
+                <div class="footer-company">
+                <p>Company</p>
+                <ul class="footer-links">
+                    <li><a href="#">About US</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Pricing</a></li>
+                
+                </ul>
+                </div>
+                    <div class="footer-destination">
+                <p>Destinations</p>
+                <ul class="footer-links">
+                    <li><a href="#">Maldives</a></li>
+                    <li><a href="#">Los Angelas</a></li>
+                    <li><a href="#">Las Vegas</a></li>
+                    <li><a href="#">Torronto</a></li>
+                
+                </ul>
+            </div>
+                <div class="newsletter-section">
+                <p>Join Our Newsletter</p>
+                <div class="newsletter-email-input-section">
+                    <input type="email"  placeholder="Your email address">
+                    <button class="subscribe">  Subscribe</button>
+                </div>
+                <div class="newsletter-description">
+                <span>*  Will send you weekly updates for your bettertour packages.</span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="copy-right-section">
+            <span>Copyright @ Xpro 2022. All Rights Reserved.</span>
+        </div>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
